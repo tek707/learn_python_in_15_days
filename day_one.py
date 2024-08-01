@@ -24,3 +24,19 @@ numtwo = int(input ("Please enter the second value: "))
 sum 
 sum = numone + numtwo
 print ("The sum is : ",sum)
+
+# Question three :  Convert temperature from Celsius to Fahrenheit.
+
+# Answer
+
+# create two varibles call celsius(C) and Fahrenheit(F)
+# Prompt the user to enter the celsius value
+# Assign the known formula's to Fahrenheit (C/32 *47)
+# Print the Fahrenheit variable .
+
+C = 000
+F = 0.00
+
+C= float(input("Please enter the temperature (C'): "))
+F = ((C/32)*47)
+print ("The temperature in Fahrenheit is : " , F)
