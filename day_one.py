@@ -38,5 +38,54 @@ C = 000
 F = 0.00
 
 C= float(input("Please enter the temperature (C'): "))
-F = ((C/32)*47)
+F = ((9/5)  * C) + 32.
 print ("The temperature in Fahrenheit is : " , F)
+
+
+
+
+# Practice Questions
+
+# Write a Python program to calculate the area of a rectangle given its length and width
+
+lenght = 0.00
+width = 0.00
+Area = 0.00
+print("")
+print("---PROGRAM TO CALCULATE AREA OF A RECTANGLE---")
+lenght = float(input("Please enter the lenght: "))
+width = float(input("Please enter the width: "))
+Area = lenght * width
+
+print (" The Area is : " , Area , "cm")
+
+#Create a program that takes a user's name and age as input and prints a greeting message
+username = ""
+age = 0
+print(''' 
+
+Welcome to the Greatings Game
+
+''')
+
+username = input("Please enter your name: ")
+age = int(input ("Please enter your age: "))
+print ("Welcome once again ," , username)
+print ("I heard a rumor of you been" , age , "years old")
+
+
+# Write a program to check if a number is even or odd
+print(''' 
+
+Welcome to the even or odd number game
+
+''')
+picker = 0
+
+picker = int(input("Please enter any whole number:  "))
+
+if(picker % 2 == 0 ):
+    print("The number your entered is an even number")
+else:
+    print("The number your entered is an odd number")
+    
