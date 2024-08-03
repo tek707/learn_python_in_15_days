@@ -88,4 +88,28 @@ if(picker % 2 == 0 ):
     print("The number your entered is an even number")
 else:
     print("The number your entered is an odd number")
-    
+
+
+#Given a list of numbers, find the maximum and minimum values
+list = [1,2,3,4,5,6,7]
+
+max = 0
+min = 100
+
+for i in list:
+    if(i > max):
+        max = i
+    else:
+        max = max
+    if(i < min):
+        min = i
+    else:
+        min = min
+print("The max is : " , max)
+print("The min is : " , min)
+
+#Create a Python function to check if a given string is a palindrome 
+
+palindrome = []
+usertext = input("Please enter a word: ")
+usertext. /., 
