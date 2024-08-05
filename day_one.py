@@ -112,4 +112,3 @@ print("The min is : " , min)
 
 palindrome = []
 usertext = input("Please enter a word: ")
-usertext. /., 
