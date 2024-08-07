@@ -109,6 +109,68 @@ print("The max is : " , max)
 print("The min is : " , min)
 
 #Create a Python function to check if a given string is a palindrome 
+print(''' 
 
-palindrome = []
+Welcome to the palindrome
+
+''')
+
+def palindrome(s):
+    return s == "".join(reversed(s))
+
 usertext = input("Please enter a word: ")
+result = palindrome(usertext)
+print("Is it a palindrome?", result) 
+
+
+#Calculate the compound interest for a given principal amount, interest rate, and time period
+print(''' 
+
+Welcome to the simple intrest calculated
+
+''')
+Principal = int(input("Please enter your principal amount: "))
+Rate = float(input("Please enter your rate % value: "))
+Time =int( input("Please enter your time: "))
+#simple intrest as SI
+SI = 0.00
+SI = (Principal *( Rate *0.01)*Time )/100
+print("Your simple intrest is: " , SI)
+
+
+#Write a program that converts a given number of days into years, weeks, and days
+print(''' 
+
+Welcome to the full year calculator
+
+''')
+Edays = int(input("Please enter the number of days:  "))
+
+days = Edays
+weeks = int(days / 7)
+months =int( weeks / 4)
+years = int(months / 52)
+
+print(" You have: Years: " , years , "months: " , months ,"weeks", weeks ,  "Days: " , days)
+
+
+#Given a list of integers, find the sum of all positive numbers
+sumlist = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]
+newsum = 0
+for i in sumlist:
+    if(i%2==0):
+        newsum+=i
+print("Sum of all the even numbers is: ",newsum)
+
+
+#Create a program that takes a sentence as input and counts the number of words in it
+def count_words(sentence):
+    words = sentence.split()
+    return len(words)
+
+user_input = input("Enter a sentence: ")
+result = count_words(user_input)
+print("Number of words:", result)
+
+
+
